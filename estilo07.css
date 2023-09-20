@@ -1,0 +1,145 @@
+body{
+    background-color: #f4e4f7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+           
+}
+
+.cabecalho{
+    background-image: url(../Desafio07/imagens07/fundo.png);
+    height: 850px; 
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+    background-position: top center;
+   
+}     
+
+.div-cabecalho{
+    margin: 50px auto 0;
+    width: 80%;
+    padding-top: 232px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.div-cabecalho h1{
+    font-size: 56px;
+    padding: 16px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+.div-cabecalho a{
+    background-color:#f3ebf5;
+    color: #3F1973;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    
+}
+
+.div-cabecalho a:hover{
+    background-color: #994787;
+    color: #ffffff;
+}
+
+.cabecalho nav ul{
+    margin: 26px;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}    
+
+.cabecalho nav a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color:#994787;
+    padding: 16px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.cabecalho nav a:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #3F1973;
+    padding: 5px;
+    border-radius: 5px;
+}   
+
+main{
+    width: 90%;
+    margin: auto;
+}   
+
+article{
+    background-color: #994787;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}   
+
+article h2{
+    color: #ffffff;
+    border-bottom: 2px solid #ccc;
+    background-color:  #c4b9b9;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.cabecalho-img{
+    list-style: none;
+    padding: 16px;
+    margin-top: 0;              
+}    
+ 
+.img-html{
+    float:left;
+    width: 60px;
+    border-radius: 50%; 
+   
+               
+}
+
+.img-html:hover{
+    background-color: rgb(172, 86, 150);
+    padding-block-start: 10px;
+    transform: scale(1.1);
+      
+}
+
+.div-paragrafo{
+    line-height: 1,5px;
+    text-align: justify;
+    list-style-type: none;
+    margin-top: 0;
+                     
+}   
+
+footer{
+    background-color: #994787;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    text-align: center;    
+    
+}
+
+footer:hover{
+    background-color:  #994787;
+    color: black;
+}           
